@@ -14,5 +14,5 @@ camunda:
     password: demo
     
 test:
-  prop: common-prop
-  prop1: common-prop1
+  prop: common-prop-updated
+  prop1: common-prop1-updated
