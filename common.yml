@@ -1,0 +1,18 @@
+camunda:
+  auth:
+    authorization_server: "http://localhost:18080/auth/realms/camunda-platform/protocol/openid-connect/token"
+    client_id: "mscustomer"
+    client_secret: "5K85YElGizKKHQIqoYcC017203YfZMEl"
+    client_audience: "zeebe-api"
+  zeebe:
+    url: "localhost:26500" #gRPC
+  tasklist:
+    url: "http://localhost:8082"
+
+  login:
+    username: demo
+    password: demo
+    
+test:
+  prop: common-prop-udp
+  prop1: common-prop1-udp
