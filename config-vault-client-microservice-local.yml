@@ -1,0 +1,3 @@
+test:
+  #prop: config-client-ms-prop
+  prop1: config-client-vault-ms-local-prop1-updated
